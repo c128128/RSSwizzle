@@ -12,16 +12,7 @@ let package = Package(
         .target(
             name: "RSSwizzle",
             dependencies: [],
-            path: "RSSwizzle",
-            exclude: ["Deprecations+Removals.swift",
-                      "Info.plist",
-                      "NSControl+RACCommandSupport.h",
-                      "NSControl+RACCommandSupport.m",
-                      "NSControl+RACTextSignalSupport.h",
-                      "NSControl+RACTextSignalSupport.m",
-                      "NSText+RACSignalSupport.h",
-                      "NSText+RACSignalSupport.m",
-                     ]
+            path: "RSSwizzle"
         )
     ]
 )
