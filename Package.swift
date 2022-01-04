@@ -12,7 +12,8 @@ let package = Package(
         .target(
             name: "RSSwizzle",
             dependencies: [],
-            path: "RSSwizzle"
+            path: "RSSwizzle",
+            publicHeadersPath: "."
         )
     ]
 )
